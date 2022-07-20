@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.bodyA {
+  overflow-x: hidden;
+  background-color: black; }
+
+html {
+  font-size: 80.5%; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style-type: none; }
+
+ol {
+  list-style-type: none; }
+
+.nav1 {
+  display: inline-block;
+  position: relative;
+  left: 50%; }
+
+.nav2 {
+  display: inline-block;
+  position: relative;
+  left: 25%; }
+
+.cenlo {
+  display: flex;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  align-content: center; }
+  .cenlo h1 {
+    font-size: 80px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold; }
+
+.gridprincipal {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  grid-template-areas: "img1 img1 img1 img1 img2 img3 img3 img3 img3" "img1 img1 img1 img1 img2 img3 img3 img3 img3" "img1 img1 img1 img1 img2 img3 img3 img3 img3" "img1 img1 img1 img1 img2 img3 img3 img3 img3" "img1 img1 img1 img1 img2 img3 img3 img3 img3" "img1 img1 img1 img1 img2 img3 img3 img3 img3" "img1 img1 img1 img1 img2 img3 img3 img3 img3" "img1 img1 img1 img1 img2 img3 img3 img3 img3"; }
