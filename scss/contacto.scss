@@ -1,0 +1,58 @@
+.gridcontacto{
+
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(8,1fr);
+    grid-gap: 10px;
+    grid-template-areas: 
+    "contacto1 contacto1 contacto1 contacto1 contacto1 contacto1 contacto1 contacto1 "
+    "contacto2 contacto2 contacto2 contacto2 contacto3 contacto3 contacto3 contacto3 "
+    "contacto2 contacto2 contacto2 contacto2 contacto3 contacto3 contacto3 contacto3 "
+    "contacto2 contacto2 contacto2 contacto2 contacto3 contacto3 contacto3 contacto3 "
+    "contacto2 contacto2 contacto2 contacto2 contacto3 contacto3 contacto3 contacto3 "
+    "contacto2 contacto2 contacto2 contacto2 contacto3 contacto3 contacto3 contacto3 "
+    "contacto2 contacto2 contacto2 contacto2 contacto3 contacto3 contacto3 contacto3 "
+    "contacto2 contacto2 contacto2 contacto2 contacto3 contacto3 contacto3 contacto3 "
+    ;
+    
+    }
+
+    .gridcon1{
+
+        grid-area: contacto1;
+        display: flex;
+
+        h1{
+             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+             font-weight: bold;
+             font-size: 40px;
+             text-align: center;
+
+        }
+    }
+    .gridcon2{
+
+        grid-area: contacto3;
+        display: flex;
+       img{
+        height: 10%;
+        width: 10%;
+       }
+
+    }
+    .gridcon3{
+
+        grid-area: contacto2;
+        display: flex;
+        input{
+            display: block;
+            font-size: 15px;
+        }
+
+      
+    }
+    .back{
+        background-color: rgb(168, 17, 17);
+    }
+
+    

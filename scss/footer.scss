@@ -1,0 +1,62 @@
+.final {
+    background-color:black;
+    p {
+        font-size: 30px;
+        font-weight: bold;
+        font-style: italic;
+        color: white;
+    }
+}
+
+.final2 {
+    @extend .final;
+    ul {
+        position: relative;
+        text-align: right;
+    }
+    li {
+        display: inline-flex;
+        height: 30px;
+        width: 30px;
+        margin: 8px;
+        padding: 3px;
+        opacity: 50%;
+        &:hover {
+            opacity: 100%;
+        }
+    }
+
+    img{
+        height: 30px;
+        width: 30px;
+    }
+}
+
+.final3 {
+    position: relative;
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    p {
+        color:whitesmoke;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    ul {
+        position: relative;
+        font-size: 16px;
+    }
+    li {
+        height: 40px;
+        width: 150px;
+    }
+    li a {
+        color: white;
+        font-size: 15px;
+    }
+    li a:hover {
+        color: rgba(182, 22, 22, 0.486);
+    }
+}

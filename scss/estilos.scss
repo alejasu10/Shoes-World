@@ -48,21 +48,97 @@ font-weight: bold;
 
 }
 
+.b1{
+ border-radius: 30%;
+
+}
+
+
+
 .gridprincipal{
 
 display: grid;
-grid-template-columns: repeat(9,1fr);
+grid-template-columns: repeat(8,1fr);
 grid-template-rows: repeat(8,1fr);
+grid-gap: 5px;
 grid-template-areas: 
-"img1 img1 img1 img1 img2 img3 img3 img3 img3"
-"img1 img1 img1 img1 img2 img3 img3 img3 img3"
-"img1 img1 img1 img1 img2 img3 img3 img3 img3"
-"img1 img1 img1 img1 img2 img3 img3 img3 img3"
-"img1 img1 img1 img1 img2 img3 img3 img3 img3"
-"img1 img1 img1 img1 img2 img3 img3 img3 img3"
-"img1 img1 img1 img1 img2 img3 img3 img3 img3"
-"img1 img1 img1 img1 img2 img3 img3 img3 img3"
+"img1 img1 img1 img1 img3 img3 img3 img3 "
+"img1 img1 img1 img1 img3 img3 img3 img3 "
+"img1 img1 img1 img1 img3 img3 img3 img3 "
+"img1 img1 img1 img1 img5 img5 img5 img5 "
+"img1 img1 img1 img1 img4 img4 img4 img4 "
+"img1 img1 img1 img1 img4 img4 img4 img4 "
+"img7 img7 img7 img7 img4 img4 img4 img4 "
+"img7 img7 img7 img7 img6 img6 img6 img6 "
 ;
 
 
 }
+
+.grid1{
+
+    grid-area: img1;
+    display: flex;
+    
+
+}
+.grid3{
+
+    grid-area: img3;
+    display: flex;
+
+
+}
+.grid4{
+
+    grid-area: img4;
+    display: flex;
+ 
+
+}
+.grid5{
+
+    grid-area: img5;
+    position: relative;
+    
+    p{
+        font-size: 50px;
+        font-weight: bold;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+   
+
+}
+.grid6{
+
+    grid-area: img6;
+    position: relative;
+    p{
+      font-size: 50px;
+      font-weight: bold;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+}
+.grid7{
+
+  grid-area: img7;
+  position: relative;
+  p{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ 
+
+}
+.boton{
+    display: block;
+    position: relative;
+    left: 30%;
+}
+
+@import "contacto";
+@import "footer";
+@import "modelos";

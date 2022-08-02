@@ -40,8 +40,150 @@ ol {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold; }
 
+.b1 {
+  border-radius: 30%; }
+
 .gridprincipal {
   display: grid;
-  grid-template-columns: repeat(9, 1fr);
+  grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(8, 1fr);
-  grid-template-areas: "img1 img1 img1 img1 img2 img3 img3 img3 img3" "img1 img1 img1 img1 img2 img3 img3 img3 img3" "img1 img1 img1 img1 img2 img3 img3 img3 img3" "img1 img1 img1 img1 img2 img3 img3 img3 img3" "img1 img1 img1 img1 img2 img3 img3 img3 img3" "img1 img1 img1 img1 img2 img3 img3 img3 img3" "img1 img1 img1 img1 img2 img3 img3 img3 img3" "img1 img1 img1 img1 img2 img3 img3 img3 img3"; }
+  grid-gap: 5px;
+  grid-template-areas: "img1 img1 img1 img1 img3 img3 img3 img3 " "img1 img1 img1 img1 img3 img3 img3 img3 " "img1 img1 img1 img1 img3 img3 img3 img3 " "img1 img1 img1 img1 img5 img5 img5 img5 " "img1 img1 img1 img1 img4 img4 img4 img4 " "img1 img1 img1 img1 img4 img4 img4 img4 " "img7 img7 img7 img7 img4 img4 img4 img4 " "img7 img7 img7 img7 img6 img6 img6 img6 "; }
+
+.grid1 {
+  grid-area: img1;
+  display: flex; }
+
+.grid3 {
+  grid-area: img3;
+  display: flex; }
+
+.grid4 {
+  grid-area: img4;
+  display: flex; }
+
+.grid5 {
+  grid-area: img5;
+  position: relative; }
+  .grid5 p {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+
+.grid6 {
+  grid-area: img6;
+  position: relative; }
+  .grid6 p {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+
+.grid7 {
+  grid-area: img7;
+  position: relative; }
+  .grid7 p {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+
+.boton {
+  display: block;
+  position: relative;
+  left: 30%; }
+
+.gridcontacto {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  grid-gap: 10px;
+  grid-template-areas: "contacto1 contacto1 contacto1 contacto1 contacto1 contacto1 contacto1 contacto1 " "contacto2 contacto2 contacto2 contacto2 contacto3 contacto3 contacto3 contacto3 " "contacto2 contacto2 contacto2 contacto2 contacto3 contacto3 contacto3 contacto3 " "contacto2 contacto2 contacto2 contacto2 contacto3 contacto3 contacto3 contacto3 " "contacto2 contacto2 contacto2 contacto2 contacto3 contacto3 contacto3 contacto3 " "contacto2 contacto2 contacto2 contacto2 contacto3 contacto3 contacto3 contacto3 " "contacto2 contacto2 contacto2 contacto2 contacto3 contacto3 contacto3 contacto3 " "contacto2 contacto2 contacto2 contacto2 contacto3 contacto3 contacto3 contacto3 "; }
+
+.gridcon1 {
+  grid-area: contacto1;
+  display: flex; }
+  .gridcon1 h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center; }
+
+.gridcon2 {
+  grid-area: contacto3;
+  display: flex; }
+  .gridcon2 img {
+    height: 10%;
+    width: 10%; }
+
+.gridcon3 {
+  grid-area: contacto2;
+  display: flex; }
+  .gridcon3 input {
+    display: block;
+    font-size: 15px; }
+
+.back {
+  background-color: #a81111; }
+
+.final, .final2 {
+  background-color: black; }
+  .final p, .final2 p {
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    color: white; }
+
+.final2 ul {
+  position: relative;
+  text-align: right; }
+
+.final2 li {
+  display: inline-flex;
+  height: 30px;
+  width: 30px;
+  margin: 8px;
+  padding: 3px;
+  opacity: 50%; }
+  .final2 li:hover {
+    opacity: 100%; }
+
+.final2 img {
+  height: 30px;
+  width: 30px; }
+
+.final3 {
+  position: relative;
+  display: flex;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+  .final3 p {
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: bold; }
+  .final3 ul {
+    position: relative;
+    font-size: 16px; }
+  .final3 li {
+    height: 40px;
+    width: 150px; }
+  .final3 li a {
+    color: white;
+    font-size: 15px; }
+  .final3 li a:hover {
+    color: rgba(182, 22, 22, 0.486); }
+
+.c_org {
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  margin: 20px;
+  padding: 10px;
+  align-items: center;
+  justify-items: center; }
+
+.c_org2 {
+  margin: 20px;
+  height: 300px;
+  width: 400px; }
