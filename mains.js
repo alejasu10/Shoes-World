@@ -22,6 +22,17 @@ function pluscarro(zapatos){
     console.log(zapatos_carrito);
     localStorage.setItem('zapatos_carrito',JSON.stringify(zapatos_carrito));
     carritozapato();
+    Toastify({
+      text: "Se Agrego!",
+      duration: 3000,
+      style: {
+        background: "linear-gradient(to right, #00b09b, #96c93d)",
+      },
+      
+  }).showToast();
+
+
+
 };
 
 
@@ -54,6 +65,15 @@ function eliminar(id){
 
 zapatos_carrito.splice(id,1);
 localStorage.setItem('zapatos_carrito',JSON.stringify(zapatos_carrito));
+Toastify({
+  text: "Se Elimino!",
+  duration: 3000,
+  style: {
+    background: "linear-gradient(to right, #00b09b, #96c93d)",
+  },
+  
+}).showToast();
+
 carritozapato();
 }
 
@@ -79,9 +99,6 @@ document.getElementById('carritodiv').innerHTML= agregar;
 
 
 }
-
-
-
 
 
 
